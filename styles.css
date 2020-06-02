@@ -4,3 +4,6 @@ nav {
     justify-content: space-between;
 }
 
+ul li {
+    display: inline-block;
+}
