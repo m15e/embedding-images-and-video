@@ -12,6 +12,9 @@ nav {
     height: 80px;
 }
 
+h1,h2,h3,h4,h5 {
+    font-weight: medium;
+}
 
 #logo {
     max-width: 100px;
@@ -83,7 +86,6 @@ main {
 #video-info-box {
     width: 90%;
     margin: 10px;
-    background-color: blue;
 }
 
 #sidebar-column {
@@ -94,6 +96,10 @@ main {
     border: 1px solid black;
     height: 1000px;
     background-color: whitesmoke
+}
+
+#video-stats p {
+    color: rgb(96,96,96);
 }
 
 /* util classes */
