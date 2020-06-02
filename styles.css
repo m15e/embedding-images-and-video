@@ -101,6 +101,7 @@ main {
 #video-stats {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #dadada;
 }
 
 #video-stats p, #video-stats ul li {
@@ -121,6 +122,35 @@ main {
     width: 20px;
     margin-right: 5px;
     height: auto;
+}
+
+#user-info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-info-box img {
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+#user-info-box button {
+    background-color: rgb(204,0,0);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    height: 45px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#user-info-box a {
+    color: rgba(0,0,0,0.3);
+    font-size: 14px;
+    text-decoration: none;
 }
 
 /* util classes */
