@@ -31,7 +31,6 @@ h1,h2,h3,h4,h5 {
     height: 30px;
     font-size: 16px;
     padding: 3px 10px;
-    
 }
 
 .nav-search button {
@@ -67,6 +66,7 @@ main {
     justify-content: space-between;
 }
 
+    /* Left-hand column containing the video, video title, video description and statistics.  */
 #main-content-column {
     width: 65%;
     display: flex;
@@ -90,7 +90,7 @@ main {
     margin: 10px;
 }
 
-/* Sidebar */
+/* Right-hand sidebar containing the recommended videos  */
 
 #sidebar-column {
     width: 30%;
@@ -124,11 +124,8 @@ main {
     width: 50%;
 }
 
-
 #main-content-column, #sidebar-column, main {
-    
     height: 1000px;
-    
 }
 
 #video-stats {
@@ -192,12 +189,8 @@ main {
     margin-right: 5px;
 }
 
-.sidebar-column a {
+.sidebar-column a, .sidebar-video-info a {
     text-decoration: none!important;
-}
-
-.sidebar-video-info a {
-    text-decoration: none;
 }
 
 .sidebar-video-info h5 {
