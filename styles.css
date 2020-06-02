@@ -98,8 +98,29 @@ main {
     background-color: whitesmoke
 }
 
-#video-stats p {
+#video-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+#video-stats p, #video-stats ul li {
     color: rgb(96,96,96);
+}
+
+#video-stats ul li {
+    display: inline-flex;
+    margin-right: 15px;
+    line-height: 1.3;
+}
+
+#video-stats ul li:nth-of-type(2) img {
+    transform: rotate(180deg);
+}
+
+#video-stats img {
+    width: 20px;
+    margin-right: 5px;
+    height: auto;
 }
 
 /* util classes */
