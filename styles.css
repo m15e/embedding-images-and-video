@@ -107,8 +107,8 @@ main {
 .sidebar-video {
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
     display: flex;
+    margin-bottom: 5px;
 }
 
 .sidebar-video .thumb-link {
@@ -223,7 +223,7 @@ main {
 
 #first-sidebar-video {
     border-bottom: 1px solid #dadada;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     margin-bottom: 15px;
 }
 
