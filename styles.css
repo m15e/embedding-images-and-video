@@ -144,6 +144,16 @@ main {
     border-bottom: 1px solid #dadada;
 }
 
+#video-stats button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    color: rgb(96,96,96);
+}
+
 #video-stats p, #video-stats ul li {
     color: rgb(96,96,96);
 }
