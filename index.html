@@ -1,14 +1,137 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
-  <title></title>
+  <title>YouTube Clone</title>
 
 </head>
 
 <body>
-</body>
+    <header>
+    <nav>
+        <a>
+        <img src="Assets/download.png" class='responsive-img' id="logo" alt="YouTube logo">
+        </a>
 
+        <form id='nav-search'>
+            <input type="text" placeholder="Search">
+            <button><img src="Assets/search.png" alt="search icon"></button>
+        </form>
+
+        <ul id='nav-icons'>
+            <li>
+                <a>
+                    <img src="Assets/video-camera.png" alt="video camera">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="Assets/menu.png" alt="menu icon">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="Assets/notification.png" alt="bell icon">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="Assets/girl.png" alt="user avatar">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="main-content-column">
+        <div id="video-container">
+                <!-- YouTube video embedding code copied and pasted -->
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="video-info-box">
+            <h2>Contributing to Open Source Part I: The Easy Way</h2>
+            <div id="video-stats">
+                <p>100,000 views • 30th October 2009</p>
+                <ul>
+                    <li><img src='Assets/like.png' alt='like icon'>421</li>
+                    <li><img src='Assets/like.png' alt='dislike icon'>18</li>
+                    <li><button><img src='Assets/share.png' alt='share icon'><span>SHARE</span></button></li>
+                    <li><img src='Assets/save.png' alt='save icon'>SAVE</li>
+                    <li><img src='Assets/dot.png' alt='dots icon'></li>
+                </ul>
+            </div>         
+            <div id="user-info-box">
+                <img src='Assets/user-icon.jpg' alt='user icon'>
+                <div class='video-description'>
+                    <h5>The Odin Project</h5>
+                    <span>988 Subscribers</span>
+                    <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open</p>
+                    <a href="#">SHOW MORE</a>
+                </div>
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <aside id="sidebar-column">
+        <div id="sidebar-column-header">
+            <span>Up next</span>
+        </div>
+        <div class="sidebar-video" id="first-sidebar-video">
+            <a href="#" class='thumb-link'><img src="Assets/video-thumbnail-1.png" alt='thumbnail image 1'></a>
+            <div class="sidebar-video-info">
+                <a href="#"><h5>How to get a job at the big 4</h5></a>
+                <a href="#"><p>The Odin Project</p></a>
+                <span>Recommended for you</span>
+            </div>                
+        </div>
+        
+        <div class="sidebar-video">
+            <a href="#" class='thumb-link'><img src="Assets/video-thumbnail-2.png" alt='thumbnail image 2'></a>
+            <div class="sidebar-video-info">
+                <a href="#"><h5>Contributing to Open Source Part II: The Real Way</h5></a>
+                <a href="#"><p>The Odin Project</p></a>
+                <span>35K views • 6 years ago</span>
+            </div>                
+        </div>
+        <div class="sidebar-video">
+            <a href="#" class='thumb-link'><img src="Assets/video-thumbnail-3.png" alt='thumbnail image 3'></a>
+            <div class="sidebar-video-info">
+                <a href="#"><h5>DebConf 14: QA with Linus Torvalds</h5></a>
+                <a href="#"><p>Adnan Hodzic</p></a>
+                <span>37K views • 3 years ago</span>
+            </div>                
+        </div>
+        <div class="sidebar-video">
+            <a href="#" class='thumb-link'><img src="Assets/video-thumbnail-4.png" alt='thumbnail image 4'></a>
+            <div class="sidebar-video-info">
+                <a href="#"><h5>Open Source Learning: David Preston</h5></a>
+                <a href="#"><p>TEDx Talks</p></a>
+                <span>1.2M views • 2 years ago</span>
+            </div>                
+        </div>
+        <div class="sidebar-video">
+            <a href="#" class='thumb-link'><img src="Assets/video-thumbnail-5.png" alt='thumbnail image 5'></a>
+            <div class="sidebar-video-info">
+                <a href="#"><h5>Your First Github Pull Request</h5></a>
+                <a href="#"><p>Charlie Ryals</p></a>
+                <span>Recommended for you</span>
+            </div>                
+        </div>
+        <div class="sidebar-video">
+            <a href="#" class='thumb-link'><img src="Assets/video-thumbnail-6.png" alt='thumbnail image 6'></a>
+            <div class="sidebar-video-info">
+                <a href="#"><h5>Mac Miller: NPR Music Tiny Desk Concert</h5></a>
+                <a href="#"><p>NPR Music</p></a>
+                <span>9M views • 4 years ago</span>
+            </div>                
+        </div>
+    </aside>
+</main>
+
+
+
+</body>
 </html>
